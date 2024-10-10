@@ -1,0 +1,86 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  /* Header Styles */
+  
+  #wm {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #337ab7;
+  }
+  
+  /* Game Container Styles */
+  
+  .game-container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Label and Input Styles */
+  
+  #numlabel {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  #num {
+    width: 50%;
+    height: 30px;
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Button Styles */
+  
+  #subbt {
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #subbt:hover {
+    background-color: #23527c;
+  }
+  
+  /* Result Message Styles */
+  
+  .result-message {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #666;
+  }
+  
+  /* Add this class to display error messages */
+  
+  
+  .error-message {
+    color: #f00;
+  }
